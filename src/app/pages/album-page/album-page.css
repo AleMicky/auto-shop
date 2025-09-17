@@ -1,0 +1,62 @@
+/* ====== NAV + HERO ====== */
+.navbar-neo {
+  background: linear-gradient(90deg, #0b1020 0%, #111a33 50%, #0b1020 100%);
+}
+.navbar-neo .nav-link { color: rgba(255,255,255,.8); }
+.navbar-neo .nav-link:hover, .navbar-neo .nav-link.active { color: #fff; }
+
+.hero-neo {
+  position: relative;
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(99,102,241,.14), transparent 60%),
+              radial-gradient(1000px 500px at 90% 10%, rgba(16,185,129,.15), transparent 55%),
+              linear-gradient(180deg, #0a1020 0%, #0d1326 60%, #0a1020 100%);
+  color: #e7e9ee;
+}
+.hero-neo .hero-img {
+  height: 360px; object-fit: cover; border-radius: 1rem; opacity: .85;
+  box-shadow: 0 1.25rem 3rem rgba(0,0,0,.45);
+}
+.hero-badge {
+  background: rgba(99,102,241,.15); color: #bfc6ff; border: 1px solid rgba(99,102,241,.35);
+  padding: .35rem .65rem; border-radius: 999px; font-size: .85rem;
+}
+
+/* ====== FILTER BAR ====== */
+.filter-bar {
+  background: #0f162c; border: 1px solid rgba(255,255,255,.08);
+  border-radius: 1rem; padding: .5rem; gap: .5rem;
+}
+.filter-bar .btn {
+  border-radius: 999px;
+}
+
+/* ====== CARDS ====== */
+.card-car {
+  background: linear-gradient(180deg, #0f162c, #0b1224);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 1rem; overflow: hidden;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.card-car:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1.25rem 2.5rem rgba(0,0,0,.4);
+  border-color: rgba(99,102,241,.35);
+}
+.card-car img {
+  height: 200px; object-fit: cover;
+}
+.badge-glass {
+  position: absolute; top: .75rem; left: .75rem;
+  background: rgba(255,255,255,.12); color: #fff; backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,.25);
+  padding: .25rem .6rem; border-radius: .5rem; font-size: .8rem;
+}
+.spec {
+  font-size: .8rem; color: #b6c1dd; border: 1px solid rgba(255,255,255,.08);
+  border-radius: .5rem; padding: .2rem .5rem;
+}
+
+/* ====== FOOTER ====== */
+.footer-neo {
+  background: #0a1020; color: #a8b0c7; border-top: 1px solid rgba(255,255,255,.08);
+}
